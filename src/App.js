@@ -46,7 +46,7 @@ function App() {
         setLon(result[0].lon);
       })
       .catch((err) => {
-        alert(err);
+        console.log(err);
         alert("Wrong city name");
       });
   }, [city]);
@@ -152,4 +152,4 @@ function App() {
 }
 
 export default App;
-//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
+//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
