@@ -46,7 +46,7 @@ function App() {
         setLon(result[0].lon);
       })
       .catch((err) => {
-        console.log(err);
+        alert(err);
         alert("Wrong city name");
       });
   }, [city]);
