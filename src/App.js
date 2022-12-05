@@ -46,6 +46,7 @@ function App() {
         setLon(result[0].lon);
       })
       .catch((err) => {
+        console.log(err);
         alert("Wrong city name");
       });
   }, [city]);
@@ -104,6 +105,9 @@ function App() {
         let date1 = new Date(temp);
 
         setSunSet(formatDate(date1));
+      })
+      .catch((err) => {
+        console.log(err);
       });
     // eslint-disable-next-line
   }, [lat, lon]);
@@ -148,3 +152,4 @@ function App() {
 }
 
 export default App;
+//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
