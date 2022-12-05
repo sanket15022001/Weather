@@ -39,6 +39,8 @@ function App() {
       return;
     }
     let url = `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${apiKey}`;
+    console.log(url);
+    console.log(city);
     fetch(url)
       .then((res) => res.json())
       .then((result) => {
