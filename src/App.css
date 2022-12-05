@@ -94,6 +94,12 @@
     margin: 0px 300px;
     flex-wrap: wrap;
   }
+  .temp {
+    font-size: 30px;
+  }
+  .container {
+    margin-top: 65px;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -101,11 +107,23 @@
     margin: 0px 100px;
     flex-wrap: wrap;
   }
+  .temp {
+    font-size: 20px;
+  }
+  .container {
+    margin-top: 55px;
+  }
 }
 
 @media screen and (max-width: 450px) {
   .mainContainer {
     margin: 0px;
     flex-wrap: wrap;
+  }
+  .container {
+    margin-top: 35px;
+  }
+  .temp {
+    font-size: 20px;
   }
 }
